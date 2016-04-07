@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CartViewController">
+            <connections>
+                <outlet property="gifImageView" destination="xjf-Vn-qAM" id="2Yh-JG-p0d"/>
+                <outlet property="goHomeBtn" destination="BAs-A3-IQt" id="hsq-G8-utf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xjf-Vn-qAM">
+                    <rect key="frame" x="195" y="195" width="210" height="210"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="210" id="D2H-Rh-jfE"/>
+                        <constraint firstAttribute="width" constant="210" id="EbZ-wz-Wyc"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAs-A3-IQt">
+                    <rect key="frame" x="210" y="425" width="180" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Ga3-XU-0wo"/>
+                        <constraint firstAttribute="width" constant="180" id="Vtd-nk-bbX"/>
+                    </constraints>
+                    <color key="tintColor" red="0.981464684009552" green="0.15888994932174683" blue="0.0074354428797960281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="去逛逛">
+                        <color key="titleColor" red="0.981464684009552" green="0.15888994932174683" blue="0.0074354428797960281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="BAs-A3-IQt" firstAttribute="top" secondItem="xjf-Vn-qAM" secondAttribute="bottom" constant="20" id="5Hk-eW-w7I"/>
+                <constraint firstItem="BAs-A3-IQt" firstAttribute="centerX" secondItem="xjf-Vn-qAM" secondAttribute="centerX" id="FFb-W5-I5F"/>
+                <constraint firstItem="xjf-Vn-qAM" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Ql3-Pm-us0"/>
+                <constraint firstItem="BAs-A3-IQt" firstAttribute="centerX" secondItem="xjf-Vn-qAM" secondAttribute="centerX" id="maj-dc-SB1"/>
+                <constraint firstItem="xjf-Vn-qAM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="y8l-dN-slK"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tabBartitle</key>
+		<string>首页</string>
+		<key>controllerName</key>
+		<string>HomeViewController</string>
+		<key>ControllerTabbarIcon_Normal</key>
+		<string>home_normal</string>
+		<key>ControllerTabbarIcon_Selected</key>
+		<string>home_selected</string>
+		<key>leftBarItemIconName</key>
+		<string></string>
+		<key>rightBarItemIconName</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>tabBartitle</key>
+		<string>商城</string>
+		<key>controllerName</key>
+		<string>MallViewController</string>
+		<key>ControllerTabbarIcon_Normal</key>
+		<string>mall_normal</string>
+		<key>ControllerTabbarIcon_Selected</key>
+		<string>mall_selected</string>
+		<key>leftBarItemIconName</key>
+		<string></string>
+		<key>rightBarItemIconName</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>tabBartitle</key>
+		<string>购物车</string>
+		<key>controllerName</key>
+		<string>CartViewController</string>
+		<key>ControllerTabbarIcon_Normal</key>
+		<string>cart_normal</string>
+		<key>ControllerTabbarIcon_Selected</key>
+		<string>cart_selected</string>
+		<key>leftBarItemIconName</key>
+		<string></string>
+		<key>rightBarItemIconName</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>tabBartitle</key>
+		<string>我的</string>
+		<key>controllerName</key>
+		<string>MineViewController</string>
+		<key>ControllerTabbarIcon_Normal</key>
+		<string>user_normal</string>
+		<key>ControllerTabbarIcon_Selected</key>
+		<string>user_selected</string>
+		<key>leftBarItemIconName</key>
+		<string></string>
+		<key>rightBarItemIconName</key>
+		<string>setting</string>
+	</dict>
+</array>
+</plist>

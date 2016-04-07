@@ -1,0 +1,37 @@
+//
+//  HttpClient.pch
+//  项目实战
+//
+//  Created by ma c on 3/22/16.
+//  Copyright © 2016 lu. All rights reserved.
+//
+
+#ifndef HttpClient_pch
+#define HttpClient_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "MJExtension.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
+#import "Params.h"
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#endif
+
+#ifdef DEBUG
+
+#else
+
+#define DLog( s, ...)
+#endif
+
+
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* HttpClient_pch */
